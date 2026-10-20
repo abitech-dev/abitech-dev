@@ -1,0 +1,330 @@
+{
+  "usuario": "abitech-dev",
+  "temas": [
+    "corporativo",
+    "tech",
+    "ejecutivo"
+  ],
+  "nombre": "Abimael Fernández Ventura",
+  "nombreCorto": "Abimael Fernández",
+  "iniciales": "AF",
+  "sitio": "https://abitech.dev",
+  "ubicacion": {
+    "es": "Huánuco, Perú",
+    "en": "Huánuco, Peru"
+  },
+  "roles": {
+    "es": [
+      "Ingeniero de software",
+      "Arquitecto de software",
+      "DevOps"
+    ],
+    "en": [
+      "Software Engineer",
+      "Software Architect",
+      "DevOps"
+    ]
+  },
+  "lema": {
+    "es": [
+      "Diseño y construyo software",
+      "y enseño cómo hacerlo"
+    ],
+    "en": [
+      "I design and build software",
+      "and teach how it's done"
+    ]
+  },
+  "presentacion": {
+    "titular": {
+      "es": "Más de tres años creando sistemas que hoy usan miles de personas",
+      "en": "3+ years building systems that thousands of people use today"
+    },
+    "detalle": {
+      "es": "Plataformas de cursos con más de 8500 estudiantes, tiendas con pagos en línea y sistemas de gestión a medida",
+      "en": "Course platforms with 8,500+ students, online stores with payments and custom management systems"
+    }
+  },
+  "experiencia": {
+    "es": "Hoy trabajo como desarrollador full stack en Tecnovo Perú",
+    "en": "I currently work as a full stack developer at Tecnovo Perú"
+  },
+  "cifras": [
+    {
+      "valor": "35+",
+      "etiqueta": {
+        "es": "proyectos desarrollados",
+        "en": "projects delivered"
+      }
+    },
+    {
+      "valor": "12",
+      "etiqueta": {
+        "es": "sistemas en uso",
+        "en": "systems in use"
+      }
+    },
+    {
+      "valor": "6",
+      "etiqueta": {
+        "es": "sectores atendidos",
+        "en": "industries served"
+      }
+    }
+  ],
+  "iniciativas": [
+    {
+      "nombre": "Abitech Perú",
+      "tipo": {
+        "es": "Mi empresa",
+        "en": "My company"
+      },
+      "url": "https://abitech.com.pe",
+      "logo": "abitech.png",
+      "descripcion": {
+        "es": "Desarrollo de software a medida y servicios de TI",
+        "en": "Custom software development and IT services"
+      }
+    },
+    {
+      "nombre": "ARSy Innova",
+      "tipo": {
+        "es": "Educación e innovación",
+        "en": "Education and innovation"
+      },
+      "url": "https://arsyinnova.edu.pe",
+      "logo": "arsy.png",
+      "descripcion": {
+        "es": "Proyecto que cofundé con cursos en línea y una red de especialistas",
+        "en": "A project I co-founded with online courses and a network of experts"
+      }
+    },
+    {
+      "nombre": "Contenedores con peras y manzanas",
+      "tipo": {
+        "es": "Libros",
+        "en": "Books"
+      },
+      "url": "https://github.com/abitech-dev/la-fruteria",
+      "logo": "libro.png",
+      "descripcion": {
+        "es": "Mis libros para aprender Docker desde cero",
+        "en": "My books to learn Docker from scratch"
+      }
+    },
+    {
+      "nombre": "YouTube",
+      "tipo": {
+        "es": "Videos",
+        "en": "Videos"
+      },
+      "canal": "youtube",
+      "logo": "youtube",
+      "descripcion": {
+        "es": "Clases para aprender a programar paso a paso",
+        "en": "Lessons to learn programming step by step"
+      }
+    }
+  ],
+  "destacadas": [
+    "laravel",
+    "vuedotjs",
+    "dotnet",
+    "docker",
+    "aws",
+    "mysql",
+    "react",
+    "terraform"
+  ],
+  "contacto": {
+    "linkedin": "abitech-dev",
+    "email": "abimaelfv@hotmail.com",
+    "whatsapp": "51901231876",
+    "youtube": null
+  },
+  "proyectos": [
+    {
+      "nombre": "Pilot SSH",
+      "rubro": {
+        "es": "Herramienta para equipos de TI",
+        "en": "Tool for IT teams"
+      },
+      "repo": "ABItech-PERU/pilot-ssh-web",
+      "logo": "pilot-ssh.png",
+      "color": "#14B8A6",
+      "descripcion": {
+        "es": "Controla quién entra a tus servidores y registra lo que hace, desde el navegador",
+        "en": "Control who accesses your servers and log what they do, right from the browser"
+      },
+      "stack": [
+        "django",
+        "react",
+        "typescript",
+        "redis",
+        "docker"
+      ]
+    },
+    {
+      "nombre": "ARSy Account",
+      "rubro": {
+        "es": "Educación e investigación",
+        "en": "Education and research"
+      },
+      "url": "https://account.arsyinnova.edu.pe",
+      "repo": "ABItech-PERU/arsy-sso-client",
+      "logo": "arsy.png",
+      "color": "#00AEEF",
+      "descripcion": {
+        "es": "Con un solo usuario y contraseña entras a todas las aplicaciones de ARSy Innova",
+        "en": "One username and password to sign in to every ARSy Innova app"
+      },
+      "stack": [
+        "laravel",
+        "inertia",
+        "vuedotjs",
+        "playwright"
+      ]
+    },
+    {
+      "nombre": "Yachacuy",
+      "rubro": {
+        "es": "Educación",
+        "en": "Education"
+      },
+      "url": "https://yachacuy.com",
+      "logo": "yachacuy.png",
+      "color": "#F97316",
+      "descripcion": {
+        "es": "Plataforma de cursos con pagos en línea, inscripciones, cupones y reportes de ventas",
+        "en": "Course platform with online payments, enrollments, coupons and sales reports"
+      },
+      "stack": [
+        "laravel",
+        "vuedotjs",
+        "inertia",
+        "mysql"
+      ]
+    },
+    {
+      "nombre": "Tu Coach UDH",
+      "rubro": {
+        "es": "Universidad",
+        "en": "University"
+      },
+      "url": "https://tucoach.udh.edu.pe",
+      "logo": "tu-coach.png",
+      "color": "#F5A400",
+      "descripcion": {
+        "es": "Cursos de investigación con más de 8500 estudiantes y 7500 certificados emitidos",
+        "en": "Research courses with 8,500+ students and 7,500+ certificates issued"
+      },
+      "stack": [
+        "laravel",
+        "php",
+        "mysql",
+        "bootstrap"
+      ]
+    }
+  ],
+  "repositorios": [
+    {
+      "repo": "abitech-dev/abitech-payments-laravel",
+      "descripcion": {
+        "es": "Paquete de Laravel para cobrar con varios medios de pago desde una sola integración",
+        "en": "Laravel package to accept several payment methods through one integration"
+      }
+    },
+    {
+      "repo": "abitech-dev/abitech-antibot-laravel",
+      "descripcion": {
+        "es": "Protege los formularios de Laravel contra bots con Turnstile o reCAPTCHA",
+        "en": "Protects Laravel forms from bots with Turnstile or reCAPTCHA"
+      }
+    },
+    {
+      "repo": "ABItech-PERU/inmuno-alerta",
+      "descripcion": {
+        "es": "Registro de vacunas con recordatorios automáticos por correo",
+        "en": "Vaccination records with automatic email reminders"
+      }
+    },
+    {
+      "repo": "ABItech-PERU/abitech-optipix-web",
+      "descripcion": {
+        "es": "Reduce el peso de tus imágenes sin subirlas a internet, basado en Squoosh",
+        "en": "Shrinks your images without uploading them anywhere, based on Squoosh"
+      }
+    }
+  ],
+  "stack": [
+    {
+      "categoria": {
+        "es": "Backend",
+        "en": "Backend"
+      },
+      "tecnologias": [
+        "php",
+        "laravel",
+        "dotnet",
+        "django",
+        "python",
+        "nodedotjs"
+      ]
+    },
+    {
+      "categoria": {
+        "es": "Frontend",
+        "en": "Frontend"
+      },
+      "tecnologias": [
+        "vuedotjs",
+        "inertia",
+        "react",
+        "angular",
+        "typescript",
+        "tailwindcss"
+      ]
+    },
+    {
+      "categoria": {
+        "es": "Datos",
+        "en": "Data"
+      },
+      "tecnologias": [
+        "mysql",
+        "postgresql",
+        "sqlserver",
+        "mongodb",
+        "redis"
+      ]
+    },
+    {
+      "categoria": {
+        "es": "Nube y DevOps",
+        "en": "Cloud and DevOps"
+      },
+      "tecnologias": [
+        "aws",
+        "terraform",
+        "docker",
+        "githubactions",
+        "linux",
+        "nginx"
+      ]
+    },
+    {
+      "categoria": {
+        "es": "Calidad e integración",
+        "en": "Quality and integration"
+      },
+      "tecnologias": [
+        "pest",
+        "vitest",
+        "playwright",
+        "bruno",
+        "swagger",
+        "newrelic"
+      ]
+    }
+  ]
+}

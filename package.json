@@ -1,0 +1,13 @@
+{
+  "name": "abitech-dev-perfil",
+  "private": true,
+  "type": "module",
+  "description": "Generador del perfil de GitHub de abitech-dev",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "generar": "node generador/generar.mjs",
+    "test": "node --test \"pruebas/**/*.test.mjs\""
+  }
+}
