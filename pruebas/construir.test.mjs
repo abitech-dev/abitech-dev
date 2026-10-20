@@ -59,6 +59,15 @@ test('cada grupo de la rotación de tecnologías se ve al menos 2 segundos', () 
   assert.ok(duracion >= 2, `Cada grupo dura ${duracion} s`);
 });
 
+test('los pilares tienen ancho fijo para bajar de fila en celulares', () => {
+  for (const temaId of Object.keys(temas)) {
+    const readme = construirPerfil({ perfil, github, temaId }).get('README.md');
+    const pilares = readme.split('\n').filter((linea) => linea.includes('iniciativa-'));
+    assert.ok(pilares.length > 0, temaId);
+    for (const linea of pilares) assert.match(linea, /width="190"/, temaId);
+  }
+});
+
 test('los SVG usan colores sólidos, sin degradados', () => {
   for (const temaId of Object.keys(temas)) {
     for (const [ruta, contenido] of construirPerfil({ perfil, github, temaId })) {

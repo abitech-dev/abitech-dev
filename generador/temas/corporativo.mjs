@@ -24,7 +24,7 @@ function readme(ctx) {
     '',
     `## ${t.loQueHago}`,
     '',
-    cuadricula(idioma, tarjetasIniciativas(ctx), '24%'),
+    cuadricula(idioma, tarjetasIniciativas(ctx), '190'),
     '',
     `## ${t.proyectos}`,
     '',

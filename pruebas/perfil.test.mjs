@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { existsSync } from 'node:fs';
 import { test } from 'node:test';
 import { iconos, luminancia, partirLineas } from '../generador/svg/comun.mjs';
-import { lineasDescripcion } from '../generador/svg/pilar.mjs';
+import { ajustarNombre, lineasDescripcion } from '../generador/svg/pilar.mjs';
 import { temas } from '../generador/temas/index.mjs';
 import { perfil } from './fixture.mjs';
 
@@ -50,7 +50,9 @@ test('cada logo declarado existe en generador/logos o en iconos.json', () => {
 
 test('cada descripción cabe en su tarjeta', () => {
   for (const { nombre, descripcion } of perfil.iniciativas) {
-    const disponibles = 4 - partirLineas(nombre, 17).length;
+    const { lineas } = ajustarNombre(nombre);
+    assert.ok(lineas.length <= 2, `El nombre ${nombre} no cabe en el pilar`);
+    const disponibles = 5 - lineas.length;
     for (const idioma of ['es', 'en']) {
       assert.ok(lineasDescripcion(descripcion[idioma]).length <= disponibles, `${nombre} (${idioma}) no cabe en el pilar`);
     }
