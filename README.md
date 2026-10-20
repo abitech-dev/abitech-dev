@@ -2,7 +2,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/banner-oscuro.svg"><img src="assets/es/banner-claro.svg" alt="Abimael Fernández Ventura. Diseño y construyo software y enseño cómo hacerlo" width="100%"></picture>
 
-<a href="https://www.linkedin.com/in/abitech-dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/boton-linkedin-oscuro.svg"><img src="assets/es/boton-linkedin-claro.svg" alt="LinkedIn" height="40"></picture></a>&nbsp;<a href="mailto:abimaelfv@hotmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/boton-correo-oscuro.svg"><img src="assets/es/boton-correo-claro.svg" alt="Correo" height="40"></picture></a>&nbsp;<a href="https://wa.me/51901231876"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/boton-whatsapp-oscuro.svg"><img src="assets/es/boton-whatsapp-claro.svg" alt="WhatsApp" height="40"></picture></a>&nbsp;<a href="https://abitech.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/boton-web-oscuro.svg"><img src="assets/es/boton-web-claro.svg" alt="abitech.dev" height="40"></picture></a>
+<a href="https://www.linkedin.com/in/abitechdev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/boton-linkedin-oscuro.svg"><img src="assets/es/boton-linkedin-claro.svg" alt="LinkedIn" height="40"></picture></a>&nbsp;<a href="mailto:abimaelfv@hotmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/boton-correo-oscuro.svg"><img src="assets/es/boton-correo-claro.svg" alt="Correo" height="40"></picture></a>&nbsp;<a href="https://wa.me/51901231876"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/boton-whatsapp-oscuro.svg"><img src="assets/es/boton-whatsapp-claro.svg" alt="WhatsApp" height="40"></picture></a>&nbsp;<a href="https://abitech.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/boton-web-oscuro.svg"><img src="assets/es/boton-web-claro.svg" alt="abitech.dev" height="40"></picture></a>
 
 <sub><b>Español</b> &nbsp;|&nbsp; <a href="README.en.md">English</a></sub>
 
@@ -11,7 +11,7 @@
 <hr>
 
 <p align="center"><b>Más de tres años creando sistemas que hoy usan miles de personas</b><br>Plataformas de cursos con más de 8500 estudiantes, tiendas con pagos en línea y sistemas de gestión a medida</p>
-<p align="center"><sub>Hoy trabajo como desarrollador full stack en Tecnovo Perú. Más sobre mi trayectoria en <a href="https://www.linkedin.com/in/abitech-dev">LinkedIn</a></sub></p>
+<p align="center"><sub>Hoy trabajo como desarrollador full stack en Tecnovo Perú. Más sobre mi trayectoria en <a href="https://www.linkedin.com/in/abitechdev">LinkedIn</a></sub></p>
 
 <hr>
 
@@ -50,6 +50,6 @@
 
 ## Actividad en GitHub
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/actividad-oscuro.svg"><img src="assets/es/actividad-claro.svg" alt="Actividad en GitHub. 1,352 contribuciones en los últimos 12 meses, 1,119 en proyectos privados, 130 días con actividad y 9 días de racha máxima" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/actividad-oscuro.svg"><img src="assets/es/actividad-claro.svg" alt="Actividad en GitHub. 1,353 contribuciones en los últimos 12 meses, 1,119 en proyectos privados, 130 días con actividad y 9 días de racha máxima" width="100%"></picture>
 
 <p align="center"><b>¿Tienes un proyecto en mente o quieres aprender conmigo? <a href="mailto:abimaelfv@hotmail.com">Escríbeme</a></b></p>

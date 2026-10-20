@@ -1,7 +1,7 @@
 {
-  "generado": "2026-10-20T17:38:42.617Z",
+  "generado": "2026-10-20T17:45:42.792Z",
   "contribuciones": {
-    "total": 1352,
+    "total": 1353,
     "privadas": 1119,
     "semanas": [
       [
@@ -1941,7 +1941,7 @@
         },
         {
           "fecha": "2026-10-20",
-          "cantidad": 5,
+          "cantidad": 6,
           "nivel": "FIRST_QUARTILE"
         }
       ]
