@@ -1,0 +1,55 @@
+name: Perfil
+
+on:
+  # 06:00 en Lima. El tema cambia los lunes y las estadísticas cada día.
+  schedule:
+    - cron: '0 11 * * *'
+  workflow_dispatch:
+    inputs:
+      tema:
+        description: Tema para esta ejecución. Vacío usa el de la semana.
+        type: choice
+        options: ['', corporativo, tech, ejecutivo]
+        default: ''
+  push:
+    branches: [dev]
+    paths: [perfil.json, 'generador/**', 'pruebas/**', .github/workflows/perfil.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: perfil
+  cancel-in-progress: false
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - run: npm test
+
+      - name: Generar README y SVG
+        run: node generador/generar.mjs ${TEMA:+--tema=$TEMA}
+        env:
+          TEMA: ${{ inputs.tema }}
+          # Las privadas cuentan si el perfil muestra "private contributions".
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - name: Publicar cambios
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A README.md README.en.md assets datos
+          if git diff --cached --quiet; then
+            echo 'El perfil no cambió.'
+            exit 0
+          fi
+          git commit -m 'chore(perfil): actualizar README y estadísticas'
+          git push
