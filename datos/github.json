@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-20T17:00:12.894Z",
+  "generado": "2026-10-20T17:00:51.242Z",
   "contribuciones": {
     "total": 1349,
     "privadas": 1119,
@@ -715,13 +715,13 @@
         },
         {
           "fecha": "2026-03-02",
-          "cantidad": 8,
+          "cantidad": 6,
           "nivel": "FIRST_QUARTILE"
         },
         {
           "fecha": "2026-03-03",
-          "cantidad": 0,
-          "nivel": "NONE"
+          "cantidad": 2,
+          "nivel": "FIRST_QUARTILE"
         },
         {
           "fecha": "2026-03-04",
@@ -1919,12 +1919,12 @@
         },
         {
           "fecha": "2026-10-16",
-          "cantidad": 68,
+          "cantidad": 67,
           "nivel": "FOURTH_QUARTILE"
         },
         {
           "fecha": "2026-10-17",
-          "cantidad": 38,
+          "cantidad": 39,
           "nivel": "THIRD_QUARTILE"
         }
       ],
