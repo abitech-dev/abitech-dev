@@ -2,6 +2,8 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/banner-oscuro.svg"><img src="assets/en/banner-claro.svg" alt="Abimael Fernández Ventura. I design and build software and teach how it's done" width="100%"></picture>
 
+<a href="https://www.linkedin.com/in/abitech-dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/boton-linkedin-oscuro.svg"><img src="assets/en/boton-linkedin-claro.svg" alt="LinkedIn" height="40"></picture></a>&nbsp;<a href="mailto:abimaelfv@hotmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/boton-correo-oscuro.svg"><img src="assets/en/boton-correo-claro.svg" alt="Email" height="40"></picture></a>&nbsp;<a href="https://wa.me/51901231876"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/boton-whatsapp-oscuro.svg"><img src="assets/en/boton-whatsapp-claro.svg" alt="WhatsApp" height="40"></picture></a>&nbsp;<a href="https://abitech.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/boton-web-oscuro.svg"><img src="assets/en/boton-web-claro.svg" alt="abitech.dev" height="40"></picture></a>
+
 <sub><b>English</b> &nbsp;|&nbsp; <a href="README.md">Español</a></sub>
 
 </div>
@@ -13,7 +15,7 @@
 
 <hr>
 
-<p align="center"><b>35+</b> projects delivered &emsp;&emsp; <b>12</b> systems in use &emsp;&emsp; <b>6</b> industries served</p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/cifras-oscuro.svg"><img src="assets/en/cifras-claro.svg" alt="35+ projects delivered, 12 systems in use, 6 industries served" width="100%"></picture>
 
 ## What I do
 
@@ -35,27 +37,19 @@
 
 ## Open source
 
-- [**abitech-payments-laravel**](https://github.com/abitech-dev/abitech-payments-laravel) &nbsp;Laravel package to accept several payment methods through one integration
-- [**abitech-antibot-laravel**](https://github.com/abitech-dev/abitech-antibot-laravel) &nbsp;Protects Laravel forms from bots with Turnstile or reCAPTCHA
-- [**inmuno-alerta**](https://github.com/ABItech-PERU/inmuno-alerta) &nbsp;Vaccination records with automatic email reminders
-- [**abitech-optipix-web**](https://github.com/ABItech-PERU/abitech-optipix-web) &nbsp;Shrinks your images without uploading them anywhere, based on Squoosh
+<p align="center">
+<a href="https://github.com/abitech-dev/abitech-payments-laravel"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/repo-abitech-payments-laravel-oscuro.svg"><img src="assets/en/repo-abitech-payments-laravel-claro.svg" alt="abitech-dev/abitech-payments-laravel. Laravel package to accept several payment methods through one integration" width="49%"></picture></a>
+<a href="https://github.com/abitech-dev/abitech-antibot-laravel"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/repo-abitech-antibot-laravel-oscuro.svg"><img src="assets/en/repo-abitech-antibot-laravel-claro.svg" alt="abitech-dev/abitech-antibot-laravel. Protects Laravel forms from bots with Turnstile or reCAPTCHA" width="49%"></picture></a>
+<a href="https://github.com/ABItech-PERU/inmuno-alerta"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/repo-inmuno-alerta-oscuro.svg"><img src="assets/en/repo-inmuno-alerta-claro.svg" alt="ABItech-PERU/inmuno-alerta. Vaccination records with automatic email reminders" width="49%"></picture></a>
+<a href="https://github.com/ABItech-PERU/abitech-optipix-web"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/repo-abitech-optipix-web-oscuro.svg"><img src="assets/en/repo-abitech-optipix-web-claro.svg" alt="ABItech-PERU/abitech-optipix-web. Shrinks your images without uploading them anywhere, based on Squoosh" width="49%"></picture></a>
+</p>
 
-## Skills
+## Tech stack
 
-| Area | Tech stack |
-|:--|:--|
-| **Backend** | PHP, Laravel, .NET, Django, Python, Node.js |
-| **Frontend** | Vue.js, Inertia, React, Angular, TypeScript, Tailwind CSS |
-| **Data** | MySQL, PostgreSQL, SQL Server, MongoDB, Redis |
-| **Cloud and DevOps** | AWS, Terraform, Docker, GitHub Actions, Linux, NGINX |
-| **Quality and integration** | Pest, Vitest, Playwright, Bruno, Swagger, New Relic |
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/stack-oscuro.svg"><img src="assets/en/stack-claro.svg" alt="Backend PHP, Laravel, .NET, Django, Python, Node.js. Frontend Vue.js, Inertia, React, Angular, TypeScript, Tailwind CSS. Data MySQL, PostgreSQL, SQL Server, MongoDB, Redis. Cloud and DevOps AWS, Terraform, Docker, GitHub Actions, Linux, NGINX. Quality and integration Pest, Vitest, Playwright, Bruno, Swagger, New Relic" width="100%"></picture>
 
 ## GitHub activity
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/actividad-oscuro.svg"><img src="assets/en/actividad-claro.svg" alt="GitHub activity. 1,349 contributions in the last 12 months, 1,119 in private projects, 130 active days and 9 day longest streak" width="100%"></picture>
 
-## Let's talk
-
 <p align="center"><b>Have a project in mind or want to learn with me? <a href="mailto:abimaelfv@hotmail.com">Send me a message</a></b></p>
-
-<p align="center"><a href="https://www.linkedin.com/in/abitech-dev">LinkedIn</a> &nbsp;|&nbsp; <a href="mailto:abimaelfv@hotmail.com">Email</a> &nbsp;|&nbsp; <a href="https://wa.me/51901231876">WhatsApp</a> &nbsp;|&nbsp; <a href="https://abitech.dev">abitech.dev</a></p>
