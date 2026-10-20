@@ -20,10 +20,10 @@
 ## Lo que hago
 
 <p align="center">
-<a href="https://abitech.com.pe"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/iniciativa-abitech-peru-oscuro.svg"><img src="assets/es/iniciativa-abitech-peru-claro.svg" alt="Abitech Perú. Desarrollo de software a medida y servicios de TI" width="24%"></picture></a>
-<a href="https://arsyinnova.edu.pe"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/iniciativa-arsy-innova-oscuro.svg"><img src="assets/es/iniciativa-arsy-innova-claro.svg" alt="ARSy Innova. Proyecto que cofundé con cursos en línea y una red de especialistas" width="24%"></picture></a>
-<a href="https://github.com/abitech-dev/la-fruteria"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/iniciativa-contenedores-con-peras-y-manzanas-oscuro.svg"><img src="assets/es/iniciativa-contenedores-con-peras-y-manzanas-claro.svg" alt="Contenedores con peras y manzanas. Mis libros para aprender Docker desde cero" width="24%"></picture></a>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/iniciativa-youtube-oscuro.svg"><img src="assets/es/iniciativa-youtube-claro.svg" alt="YouTube. Clases para aprender a programar paso a paso" width="24%"></picture>
+<a href="https://abitech.com.pe"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/iniciativa-abitech-peru-oscuro.svg"><img src="assets/es/iniciativa-abitech-peru-claro.svg" alt="Abitech Perú. Desarrollo de software a medida y servicios de TI" width="190"></picture></a>
+<a href="https://arsyinnova.edu.pe"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/iniciativa-arsy-innova-oscuro.svg"><img src="assets/es/iniciativa-arsy-innova-claro.svg" alt="ARSy Innova. Proyecto que cofundé con cursos en línea y una red de especialistas" width="190"></picture></a>
+<a href="https://github.com/abitech-dev/la-fruteria"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/iniciativa-contenedores-con-peras-y-manzanas-oscuro.svg"><img src="assets/es/iniciativa-contenedores-con-peras-y-manzanas-claro.svg" alt="Contenedores con peras y manzanas. Mis libros para aprender Docker desde cero" width="190"></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/iniciativa-youtube-oscuro.svg"><img src="assets/es/iniciativa-youtube-claro.svg" alt="YouTube. Clases para aprender a programar paso a paso" width="190"></picture>
 </p>
 
 ## Proyectos destacados
@@ -50,6 +50,6 @@
 
 ## Actividad en GitHub
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/actividad-oscuro.svg"><img src="assets/es/actividad-claro.svg" alt="Actividad en GitHub. 1,349 contribuciones en los últimos 12 meses, 1,119 en proyectos privados, 130 días con actividad y 9 días de racha máxima" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/actividad-oscuro.svg"><img src="assets/es/actividad-claro.svg" alt="Actividad en GitHub. 1,352 contribuciones en los últimos 12 meses, 1,119 en proyectos privados, 130 días con actividad y 9 días de racha máxima" width="100%"></picture>
 
 <p align="center"><b>¿Tienes un proyecto en mente o quieres aprender conmigo? <a href="mailto:abimaelfv@hotmail.com">Escríbeme</a></b></p>
