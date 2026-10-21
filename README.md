@@ -50,6 +50,6 @@
 
 ## Actividad en GitHub
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/actividad-oscuro.svg"><img src="assets/es/actividad-claro.svg" alt="Actividad en GitHub. 1,353 contribuciones en los últimos 12 meses, 1,119 en proyectos privados, 130 días con actividad y 9 días de racha máxima" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/actividad-oscuro.svg"><img src="assets/es/actividad-claro.svg" alt="Actividad en GitHub. 1,355 contribuciones en los últimos 12 meses, 1,128 en proyectos privados, 129 días con actividad y 9 días de racha máxima" width="100%"></picture>
 
 <p align="center"><b>¿Tienes un proyecto en mente o quieres aprender conmigo? <a href="mailto:abimaelfv@hotmail.com">Escríbeme</a></b></p>
