@@ -1,8 +1,8 @@
 {
-  "generado": "2026-10-22T11:05:05.553Z",
+  "generado": "2026-10-23T11:05:13.208Z",
   "contribuciones": {
-    "total": 1436,
-    "privadas": 1207,
+    "total": 1536,
+    "privadas": 1307,
     "semanas": [
       [
         {
@@ -171,7 +171,7 @@
         {
           "fecha": "2025-11-19",
           "cantidad": 37,
-          "nivel": "THIRD_QUARTILE"
+          "nivel": "SECOND_QUARTILE"
         },
         {
           "fecha": "2025-11-20",
@@ -203,7 +203,7 @@
         {
           "fecha": "2025-11-25",
           "cantidad": 46,
-          "nivel": "THIRD_QUARTILE"
+          "nivel": "SECOND_QUARTILE"
         },
         {
           "fecha": "2025-11-26",
@@ -356,7 +356,7 @@
         {
           "fecha": "2025-12-24",
           "cantidad": 18,
-          "nivel": "SECOND_QUARTILE"
+          "nivel": "FIRST_QUARTILE"
         },
         {
           "fecha": "2025-12-25",
@@ -371,7 +371,7 @@
         {
           "fecha": "2025-12-27",
           "cantidad": 37,
-          "nivel": "THIRD_QUARTILE"
+          "nivel": "SECOND_QUARTILE"
         }
       ],
       [
@@ -593,14 +593,14 @@
         {
           "fecha": "2026-02-07",
           "cantidad": 40,
-          "nivel": "THIRD_QUARTILE"
+          "nivel": "SECOND_QUARTILE"
         }
       ],
       [
         {
           "fecha": "2026-02-08",
           "cantidad": 61,
-          "nivel": "FOURTH_QUARTILE"
+          "nivel": "THIRD_QUARTILE"
         },
         {
           "fecha": "2026-02-09",
@@ -684,7 +684,7 @@
         {
           "fecha": "2026-02-24",
           "cantidad": 18,
-          "nivel": "SECOND_QUARTILE"
+          "nivel": "FIRST_QUARTILE"
         },
         {
           "fecha": "2026-02-25",
@@ -1037,7 +1037,7 @@
         {
           "fecha": "2026-05-02",
           "cantidad": 19,
-          "nivel": "SECOND_QUARTILE"
+          "nivel": "FIRST_QUARTILE"
         }
       ],
       [
@@ -1249,7 +1249,7 @@
         {
           "fecha": "2026-06-11",
           "cantidad": 20,
-          "nivel": "SECOND_QUARTILE"
+          "nivel": "FIRST_QUARTILE"
         },
         {
           "fecha": "2026-06-12",
@@ -1915,17 +1915,17 @@
         {
           "fecha": "2026-10-15",
           "cantidad": 71,
-          "nivel": "FOURTH_QUARTILE"
+          "nivel": "THIRD_QUARTILE"
         },
         {
           "fecha": "2026-10-16",
           "cantidad": 67,
-          "nivel": "FOURTH_QUARTILE"
+          "nivel": "THIRD_QUARTILE"
         },
         {
           "fecha": "2026-10-17",
           "cantidad": 39,
-          "nivel": "THIRD_QUARTILE"
+          "nivel": "SECOND_QUARTILE"
         }
       ],
       [
@@ -1946,12 +1946,17 @@
         },
         {
           "fecha": "2026-10-21",
-          "cantidad": 68,
-          "nivel": "FOURTH_QUARTILE"
+          "cantidad": 70,
+          "nivel": "THIRD_QUARTILE"
         },
         {
           "fecha": "2026-10-22",
-          "cantidad": 13,
+          "cantidad": 95,
+          "nivel": "FOURTH_QUARTILE"
+        },
+        {
+          "fecha": "2026-10-23",
+          "cantidad": 16,
           "nivel": "FIRST_QUARTILE"
         }
       ]
