@@ -34,6 +34,7 @@ jobs:
           node-version: 22
 
       - run: npm test
+      - run: npm run validar
 
       - name: Generar README y SVG
         run: node generador/generar.mjs ${TEMA:+--tema=$TEMA}
