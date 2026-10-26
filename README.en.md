@@ -8,14 +8,17 @@
 
 </div>
 
-<hr>
+```js
+// 3+ years building systems that thousands of people use today
+const abimael = {
+  roles: ['Software Engineer', 'Software Architect', 'DevOps'],
+  basedIn: 'Huánuco, Peru',
+  stack: ['Laravel', 'Vue.js', '.NET', 'Docker', 'AWS', 'MySQL'],
+  available: true,
+};
+```
 
-<p align="center"><b>3+ years building systems that thousands of people use today</b><br>Course platforms with 8,500+ students, online stores with payments and custom management systems</p>
-<p align="center"><sub>I currently work as a full stack developer at Tecnovo Perú. More about my background on <a href="https://www.linkedin.com/in/abitechdev">LinkedIn</a></sub></p>
-
-<hr>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/cifras-oscuro.svg"><img src="assets/en/cifras-claro.svg" alt="35+ projects delivered, 12 systems in use, 6 industries served" width="100%"></picture>
+<sub>I currently work as a full stack developer at Tecnovo Perú. More about my background on <a href="https://www.linkedin.com/in/abitechdev">LinkedIn</a></sub>
 
 ## What I do
 
@@ -25,6 +28,10 @@
 <a href="https://github.com/abitech-dev/la-fruteria"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/iniciativa-contenedores-con-peras-y-manzanas-oscuro.svg"><img src="assets/en/iniciativa-contenedores-con-peras-y-manzanas-claro.svg" alt="Contenedores con peras y manzanas. My books to learn Docker from scratch" width="190"></picture></a>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/iniciativa-youtube-oscuro.svg"><img src="assets/en/iniciativa-youtube-claro.svg" alt="YouTube. Lessons to learn programming step by step" width="190"></picture>
 </p>
+
+## Tech stack
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/stack-oscuro.svg"><img src="assets/en/stack-claro.svg" alt="Backend PHP, Laravel, .NET, Django, Python, Node.js. Frontend Vue.js, Inertia, React, Angular, TypeScript, Tailwind CSS. Data MySQL, PostgreSQL, SQL Server, MongoDB, Redis. Cloud and DevOps AWS, Terraform, Docker, GitHub Actions, Linux, NGINX. Quality and integration Pest, Vitest, Playwright, Bruno, Swagger, New Relic" width="100%"></picture>
 
 ## Featured projects
 
@@ -44,12 +51,8 @@
 <a href="https://github.com/ABItech-PERU/abitech-optipix-web"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/repo-abitech-optipix-web-oscuro.svg"><img src="assets/en/repo-abitech-optipix-web-claro.svg" alt="ABItech-PERU/abitech-optipix-web. Shrinks your images without uploading them anywhere, based on Squoosh" width="49%"></picture></a>
 </p>
 
-## Tech stack
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/stack-oscuro.svg"><img src="assets/en/stack-claro.svg" alt="Backend PHP, Laravel, .NET, Django, Python, Node.js. Frontend Vue.js, Inertia, React, Angular, TypeScript, Tailwind CSS. Data MySQL, PostgreSQL, SQL Server, MongoDB, Redis. Cloud and DevOps AWS, Terraform, Docker, GitHub Actions, Linux, NGINX. Quality and integration Pest, Vitest, Playwright, Bruno, Swagger, New Relic" width="100%"></picture>
-
 ## GitHub activity
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/actividad-oscuro.svg"><img src="assets/en/actividad-claro.svg" alt="GitHub activity. 1,639 contributions in the last 12 months, 1,410 in private projects, 133 active days and 9 day longest streak" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/actividad-oscuro.svg"><img src="assets/en/actividad-claro.svg" alt="GitHub activity. 1,682 contributions in the last 12 months, 1,440 in private projects, 134 active days and 9 day longest streak" width="100%"></picture>
 
 <p align="center"><b>Have a project in mind or want to learn with me? <a href="mailto:abimaelfv@hotmail.com">Send me a message</a></b></p>
