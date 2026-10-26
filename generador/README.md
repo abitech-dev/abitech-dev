@@ -17,8 +17,11 @@ Edita `perfil.json` y deja que la Action publique. No edites `README.md`, `READM
 npm run generar                     # tema de la semana y datos frescos de GitHub
 npm run generar -- --tema=tech      # fuerza un tema
 npm run generar -- --sin-red        # usa datos/github.json sin consultar GitHub
+npm run validar                      # revisa perfil.json antes de generar
 npm test
 ```
+
+Si la validación falla, el script muestra cada campo inválido con su ruta (por ejemplo `stack[0].tecnologias[2]`) y detiene la publicación.
 
 En local el token sale de `gh auth token`. La Action usa el `GITHUB_TOKEN` que GitHub le da por defecto.
 

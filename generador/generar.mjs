@@ -5,6 +5,7 @@ import { parseArgs } from 'node:util';
 import { construirPerfil, validarArchivos } from './construir.mjs';
 import { obtenerDatosGithub } from './github.mjs';
 import { temaDeLaSemana } from './rotacion.mjs';
+import { cargarPerfil } from './validar.mjs';
 
 const raiz = fileURLToPath(new URL('..', import.meta.url));
 const rutaCache = join(raiz, 'datos', 'github.json');
@@ -16,7 +17,7 @@ const { values: opciones } = parseArgs({
   },
 });
 
-const perfil = JSON.parse(readFileSync(join(raiz, 'perfil.json'), 'utf8'));
+const perfil = cargarPerfil(join(raiz, 'perfil.json'));
 const temaId = opciones.tema || temaDeLaSemana(perfil.temas, new Date());
 
 // Si GitHub no responde se usan los últimos datos guardados y el perfil
