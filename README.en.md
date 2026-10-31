@@ -53,6 +53,6 @@ const abimael = {
 
 ## GitHub activity
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/actividad-oscuro.svg"><img src="assets/en/actividad-claro.svg" alt="GitHub activity. 2,250 contributions in the last 12 months, 1,992 in private projects, 140 active days and 12 day longest streak" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/actividad-oscuro.svg"><img src="assets/en/actividad-claro.svg" alt="GitHub activity. 2,267 contributions in the last 12 months, 2,008 in private projects, 140 active days and 12 day longest streak" width="100%"></picture>
 
 <p align="center"><b>Have a project in mind or want to learn with me? <a href="mailto:abimaelfv@hotmail.com">Send me a message</a></b></p>
