@@ -1,8 +1,8 @@
 {
-  "generado": "2026-11-13T11:03:35.603Z",
+  "generado": "2026-11-14T11:03:23.069Z",
   "contribuciones": {
-    "total": 2626,
-    "privadas": 2347,
+    "total": 2661,
+    "privadas": 2334,
     "semanas": [
       [
         {
@@ -1956,6 +1956,11 @@
         },
         {
           "fecha": "2026-11-13",
+          "cantidad": 35,
+          "nivel": "FIRST_QUARTILE"
+        },
+        {
+          "fecha": "2026-11-14",
           "cantidad": 0,
           "nivel": "NONE"
         }
