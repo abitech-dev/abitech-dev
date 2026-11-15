@@ -1,46 +1,9 @@
 {
-  "generado": "2026-11-14T11:03:23.069Z",
+  "generado": "2026-11-15T11:03:28.129Z",
   "contribuciones": {
-    "total": 2661,
-    "privadas": 2334,
+    "total": 2776,
+    "privadas": 2345,
     "semanas": [
-      [
-        {
-          "fecha": "2025-11-09",
-          "cantidad": 0,
-          "nivel": "NONE"
-        },
-        {
-          "fecha": "2025-11-10",
-          "cantidad": 4,
-          "nivel": "FIRST_QUARTILE"
-        },
-        {
-          "fecha": "2025-11-11",
-          "cantidad": 7,
-          "nivel": "FIRST_QUARTILE"
-        },
-        {
-          "fecha": "2025-11-12",
-          "cantidad": 17,
-          "nivel": "FIRST_QUARTILE"
-        },
-        {
-          "fecha": "2025-11-13",
-          "cantidad": 0,
-          "nivel": "NONE"
-        },
-        {
-          "fecha": "2025-11-14",
-          "cantidad": 31,
-          "nivel": "FIRST_QUARTILE"
-        },
-        {
-          "fecha": "2025-11-15",
-          "cantidad": 0,
-          "nivel": "NONE"
-        }
-      ],
       [
         {
           "fecha": "2025-11-16",
@@ -1946,12 +1909,12 @@
         },
         {
           "fecha": "2026-11-11",
-          "cantidad": 12,
+          "cantidad": 27,
           "nivel": "FIRST_QUARTILE"
         },
         {
           "fecha": "2026-11-12",
-          "cantidad": 43,
+          "cantidad": 54,
           "nivel": "SECOND_QUARTILE"
         },
         {
@@ -1961,8 +1924,15 @@
         },
         {
           "fecha": "2026-11-14",
-          "cantidad": 0,
-          "nivel": "NONE"
+          "cantidad": 82,
+          "nivel": "THIRD_QUARTILE"
+        }
+      ],
+      [
+        {
+          "fecha": "2026-11-15",
+          "cantidad": 7,
+          "nivel": "FIRST_QUARTILE"
         }
       ]
     ]
