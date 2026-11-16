@@ -1,8 +1,8 @@
 {
-  "generado": "2026-11-15T11:03:28.129Z",
+  "generado": "2026-11-16T11:03:42.149Z",
   "contribuciones": {
-    "total": 2776,
-    "privadas": 2345,
+    "total": 2823,
+    "privadas": 2293,
     "semanas": [
       [
         {
@@ -1924,14 +1924,19 @@
         },
         {
           "fecha": "2026-11-14",
-          "cantidad": 82,
+          "cantidad": 84,
           "nivel": "THIRD_QUARTILE"
         }
       ],
       [
         {
           "fecha": "2026-11-15",
-          "cantidad": 7,
+          "cantidad": 98,
+          "nivel": "THIRD_QUARTILE"
+        },
+        {
+          "fecha": "2026-11-16",
+          "cantidad": 13,
           "nivel": "FIRST_QUARTILE"
         }
       ]
@@ -1941,7 +1946,7 @@
     "abitech-dev/abitech-payments-laravel": {
       "estrellas": 0,
       "forks": 0,
-      "sitio": null,
+      "sitio": "https://abitech.dev/codigo-abierto",
       "lenguaje": {
         "nombre": "PHP",
         "color": "#4F5D95"
@@ -1950,7 +1955,7 @@
     "abitech-dev/abitech-antibot-laravel": {
       "estrellas": 0,
       "forks": 0,
-      "sitio": null,
+      "sitio": "https://abitech.dev/codigo-abierto",
       "lenguaje": {
         "nombre": "PHP",
         "color": "#4F5D95"
