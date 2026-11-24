@@ -52,7 +52,7 @@
 
 ## Actividad en GitHub
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/actividad-oscuro.svg"><img src="assets/es/actividad-claro.svg" alt="Actividad en GitHub. 2,963 contribuciones en los últimos 12 meses, 2,369 en proyectos privados, 147 días con actividad y 14 días de racha máxima" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/actividad-oscuro.svg"><img src="assets/es/actividad-claro.svg" alt="Actividad en GitHub. 3,037 contribuciones en los últimos 12 meses, 2,406 en proyectos privados, 149 días con actividad y 16 días de racha máxima" width="100%"></picture>
 
 ## Hablemos
 
