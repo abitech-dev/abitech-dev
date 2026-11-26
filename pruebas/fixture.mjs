@@ -1,6 +1,34 @@
 import { readFileSync } from 'node:fs';
 
-export const perfil = JSON.parse(readFileSync(new URL('../perfil.json', import.meta.url), 'utf8'));
+import { perfilConTrayectoria } from '../generador/trayectoria.mjs';
+
+export const perfilBase = JSON.parse(readFileSync(new URL('../perfil.json', import.meta.url), 'utf8'));
+
+function resume(idioma) {
+  const es = idioma === 'es';
+  return {
+    basics: {
+      name: 'Ana Perez Rojas',
+      label: es ? 'Desarrolladora full stack' : 'Full stack developer',
+      email: 'ana@ejemplo.pe',
+      summary: es ? 'Desarrolladora full stack con tres años.' : 'Full stack developer with three years.',
+    },
+    work: [
+      { id: 'antes', name: 'Empresa Antigua', position: 'Practicante', endDate: '2024-01' },
+      { id: 'actual', name: 'Empresa Actual S.A.C.', position: es ? 'Desarrolladora full stack' : 'Full stack developer' },
+    ],
+    projects: perfilBase.proyectos.map(({ id }, i) => ({
+      id,
+      name: i === 0 ? 'Proyecto Uno' : `Proyecto ${id}`,
+      ...(i === 0 ? { url: 'https://uno.ejemplo.pe/' } : {}),
+    })),
+    meta: { version: '1.5.0', figures: { yearsOfExperience: 3, systemsInProduction: 15, sectors: 7 } },
+  };
+}
+
+export const resumes = { es: resume('es'), en: resume('en') };
+
+export const perfil = perfilConTrayectoria(perfilBase, resumes);
 
 function semanas() {
   const inicio = Date.UTC(2025, 9, 19);

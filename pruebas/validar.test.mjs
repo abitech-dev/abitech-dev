@@ -4,16 +4,16 @@ import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { test } from 'node:test';
 import { cargarPerfil, validarPerfil } from '../generador/validar.mjs';
-import { perfil } from './fixture.mjs';
+import { perfil, perfilBase } from './fixture.mjs';
 
 test('un perfil válido pasa la validación', () => {
-  assert.doesNotThrow(() => validarPerfil(perfil));
+  assert.doesNotThrow(() => validarPerfil(perfilBase));
 });
 
 test('falla si falta un campo obligatorio', () => {
-  const invalido = { ...perfil };
-  delete invalido.presentacion;
-  assert.throws(() => validarPerfil(invalido), /presentacion: campo obligatorio ausente/);
+  const invalido = { ...perfilBase };
+  delete invalido.lema;
+  assert.throws(() => validarPerfil(invalido), /lema: campo obligatorio ausente/);
 });
 
 test('falla si un texto bilingüe no tiene las claves es y en', () => {

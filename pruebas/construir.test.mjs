@@ -102,12 +102,6 @@ test('el README en español no se filtra al inglés', () => {
   assert.ok(!archivos.get('README.en.md').includes(perfil.presentacion.titular.es));
 });
 
-test('la tarjeta de una iniciativa sin enlace no se envuelve en un vínculo', () => {
-  const readme = construirPerfil({ perfil, github, temaId: 'corporativo' }).get('README.md');
-  const linea = readme.split('\n').find((texto) => texto.includes('iniciativa-youtube-oscuro.svg'));
-  assert.match(linea, /^<picture>/);
-});
-
 test('el botón de YouTube aparece solo cuando hay canal', () => {
   const sinCanal = construirPerfil({ perfil, github, temaId: 'corporativo' });
   assert.ok(!sinCanal.has('assets/es/boton-youtube-claro.svg'));

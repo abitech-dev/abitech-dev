@@ -13,7 +13,7 @@ function pieEnlace(url, t) {
 
 export function tarjetasIniciativas({ perfil, idioma, t }) {
   return perfil.iniciativas.map((iniciativa) => {
-    const url = iniciativa.canal ? perfil.contacto[iniciativa.canal] : iniciativa.url;
+    const { url } = iniciativa;
     return {
       archivo: `iniciativa-${slug(iniciativa.nombre)}`,
       url,
@@ -22,7 +22,7 @@ export function tarjetasIniciativas({ perfil, idioma, t }) {
         etiqueta: iniciativa.tipo[idioma],
         descripcion: iniciativa.descripcion[idioma],
         logo: iniciativa.logo,
-        pie: url ? pieEnlace(url, t) : t.muyPronto,
+        pie: pieEnlace(url, t),
       },
     };
   });

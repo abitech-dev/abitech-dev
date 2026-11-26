@@ -1,12 +1,15 @@
 # Generador del perfil
 
-El README del perfil y todas sus imágenes salen de `perfil.json`. Nada depende de servicios externos al cargar la página: los SVG se generan aquí y se guardan en `assets/`.
+El README del perfil y todas sus imágenes salen de dos fuentes. Los hechos (nombre, titular, resumen, empleo actual, cifras, correo y el nombre y enlace de cada proyecto) se leen del `resume.json` que publica abitech.dev, el mismo que exporta `abitech-trayectoria`. La forma (temas, roles, lema, logos, colores, tecnologías y textos de las tarjetas) está en `perfil.json`. Nada depende de servicios externos al cargar la página: los SVG se generan aquí y se guardan en `assets/`.
 
 ## Cambiar el contenido
 
-Edita `perfil.json` y deja que la Action publique. No edites `README.md`, `README.en.md` ni `assets/` a mano, porque se sobrescriben en cada ejecución.
+Un hecho se corrige en `abitech-trayectoria` y llega al perfil en la siguiente ejecución diaria. La forma se edita en `perfil.json` y la Action publica. No edites `README.md`, `README.en.md` ni `assets/` a mano, porque se sobrescriben en cada ejecución.
 
 - Los textos bilingües llevan siempre `es` y `en`.
+- Cada proyecto destacado lleva el `id` que tiene en el `resume.json`. Si el sitio deja de publicarlo, la generación se detiene.
+- Las descripciones de `perfil.json` no llevan cifras, porque envejecen. Las cifras salen de `meta.figures` del `resume.json`.
+- Si el `resume.json` no responde, se usa la copia de `datos/resume.json`. Sin copia, no se publica nada.
 - Las tecnologías se escriben con su clave de `iconos.json`, por ejemplo `laravel` o `vuedotjs`.
 - Cuando tengas canal de YouTube, pon el enlace en `contacto.youtube` y aparecerá el botón.
 - Para fijar un tema deja uno solo en `temas`. Con varios, rotan cada lunes.
