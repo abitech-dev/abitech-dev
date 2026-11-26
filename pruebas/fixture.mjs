@@ -25,3 +25,8 @@ export const github = {
     lenguaje: i === 3 ? null : { nombre: 'TypeScript', color: '#3178c6' },
   }])),
 };
+
+export const blog = {
+  es: [{ titulo: 'Nota uno', url: 'https://abitech.dev/blog/uno/', fecha: '2026-11-20' }],
+  en: [{ titulo: 'Note one', url: 'https://abitech.dev/en/blog/uno/', fecha: '2026-11-20' }],
+};

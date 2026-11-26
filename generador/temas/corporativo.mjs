@@ -1,6 +1,7 @@
 import {
   cuadricula, filaBotones, imagenActividad, imagenAdaptable, bloquePresentacion, llamadoFinal, selectorIdioma,
   textoCifras, textoStack,
+  seccionBlog,
 } from '../markdown.mjs';
 import { bannerRed } from '../svg/banner-red.mjs';
 import { tarjetasIniciativas, tarjetasProyectos, tarjetasRepositorios } from '../tarjetas.mjs';
@@ -34,6 +35,7 @@ function readme(ctx) {
     '',
     cuadricula(idioma, tarjetasRepositorios(ctx)),
     '',
+    ...seccionBlog(ctx),
     `## ${t.tecnologias}`,
     '',
     imagenAdaptable(idioma, 'stack', textoStack(ctx), 'width="100%"'),

@@ -25,14 +25,14 @@ export function validarArchivos(archivos) {
   }
 }
 
-export function construirPerfil({ perfil, github, temaId }) {
+export function construirPerfil({ perfil, github, blog = null, temaId }) {
   const tema = temas[temaId];
   if (!tema) throw new Error(`Tema desconocido: ${temaId}. Disponibles ${Object.keys(temas).join(', ')}.`);
 
   const archivos = new Map();
   for (const idioma of IDIOMAS) {
     const t = textos[idioma];
-    const ctx = { perfil, github, idioma, t };
+    const ctx = { perfil, github, blog, idioma, t };
     for (const modo of MODOS) {
       const paleta = tema.paletas[modo];
       const ruta = (nombre) => `assets/${idioma}/${nombre}-${modo}.svg`;

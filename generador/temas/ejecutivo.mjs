@@ -1,6 +1,7 @@
 import {
   cuadricula, enlacesTexto, imagenActividad, imagenAdaptable, bloquePresentacion, llamadoFinal, nombresTecnologias,
   selectorIdioma,
+  seccionBlog,
 } from '../markdown.mjs';
 import { bannerEditorial } from '../svg/banner-editorial.mjs';
 import { tarjetasIniciativas, tarjetasProyectos } from '../tarjetas.mjs';
@@ -48,6 +49,7 @@ function readme(ctx) {
     ...perfil.repositorios.map(({ repo, descripcion }) =>
       `- [**${repo.split('/')[1]}**](https://github.com/${repo}) &nbsp;${descripcion[idioma]}`),
     '',
+    ...seccionBlog(ctx),
     `## ${t.competencias}`,
     '',
     tablaCompetencias(ctx),
