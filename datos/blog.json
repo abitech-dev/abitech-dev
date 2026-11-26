@@ -1,0 +1,36 @@
+{
+  "es": [
+    {
+      "titulo": "La misma imagen Docker de develop a producción, sin reconstruirla",
+      "url": "https://abitech.dev/blog/promover-la-imagen/",
+      "fecha": "2026-11-20"
+    },
+    {
+      "titulo": "Git Flow, GitHub Flow, GitLab Flow o trunk-based y cómo elegir",
+      "url": "https://abitech.dev/blog/ramas-y-ambientes/",
+      "fecha": "2026-11-20"
+    },
+    {
+      "titulo": "Cómo aceleré mi sitio sin CDN con el servidor en Europa",
+      "url": "https://abitech.dev/blog/primer-byte-sin-cdn/",
+      "fecha": "2026-11-14"
+    }
+  ],
+  "en": [
+    {
+      "titulo": "The same Docker image from develop to production, without rebuilding",
+      "url": "https://abitech.dev/en/blog/promover-la-imagen/",
+      "fecha": "2026-11-20"
+    },
+    {
+      "titulo": "Git Flow, GitHub Flow, GitLab Flow or trunk-based and how to choose",
+      "url": "https://abitech.dev/en/blog/ramas-y-ambientes/",
+      "fecha": "2026-11-20"
+    },
+    {
+      "titulo": "How I sped up my site without a CDN, with the server in Europe",
+      "url": "https://abitech.dev/en/blog/primer-byte-sin-cdn/",
+      "fecha": "2026-11-14"
+    }
+  ]
+}

@@ -40,6 +40,14 @@
 - [**inmuno-alerta**](https://github.com/ABItech-PERU/inmuno-alerta) &nbsp;Vaccination records with automatic email reminders
 - [**abitech-optipix-web**](https://github.com/ABItech-PERU/abitech-optipix-web) &nbsp;Shrinks your images without uploading them anywhere, based on Squoosh
 
+## From the blog
+
+- [The same Docker image from develop to production, without rebuilding](https://abitech.dev/en/blog/promover-la-imagen/)
+- [Git Flow, GitHub Flow, GitLab Flow or trunk-based and how to choose](https://abitech.dev/en/blog/ramas-y-ambientes/)
+- [How I sped up my site without a CDN, with the server in Europe](https://abitech.dev/en/blog/primer-byte-sin-cdn/)
+
+<sub><a href="https://abitech.dev/en/blog">All posts</a></sub>
+
 ## Skills
 
 | Area | Tech stack |
@@ -52,7 +60,7 @@
 
 ## GitHub activity
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/actividad-oscuro.svg"><img src="assets/en/actividad-claro.svg" alt="GitHub activity. 3,062 contributions in the last 12 months, 2,412 in private projects, 150 active days and 17 day longest streak" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/actividad-oscuro.svg"><img src="assets/en/actividad-claro.svg" alt="GitHub activity. 3,077 contributions in the last 12 months, 2,418 in private projects, 151 active days and 18 day longest streak" width="100%"></picture>
 
 ## Let's talk
 
