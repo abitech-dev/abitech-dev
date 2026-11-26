@@ -21,7 +21,6 @@ function bloqueCodigo({ perfil, idioma, t }) {
     `  ${claves.roles}: [${roles}],`,
     `  ${claves.base}: ${cadena(perfil.ubicacion[idioma])},`,
     `  ${claves.stack}: [${stack}],`,
-    `  ${claves.disponible}: true,`,
     '};',
     '```',
   ].join('\n');

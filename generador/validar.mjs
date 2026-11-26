@@ -8,28 +8,22 @@ const IDIOMAS = ['es', 'en'];
 const CAMPOS_OBLIGATORIOS = [
   'usuario',
   'temas',
-  'nombre',
-  'nombreCorto',
   'iniciales',
   'sitio',
   'ubicacion',
   'roles',
   'lema',
-  'presentacion',
-  'experiencia',
-  'cifras',
   'iniciativas',
   'destacadas',
   'contacto',
   'proyectos',
   'repositorios',
   'stack',
-  'presentacion.titular',
-  'presentacion.detalle',
   'contacto.linkedin',
-  'contacto.email',
-  'contacto.whatsapp',
 ];
+
+// Dos líneas de la tarjeta de proyecto, a 64 caracteres cada una.
+const LARGO_MAXIMO_DE_PROYECTO = 128;
 
 function valorEnRuta(objeto, ruta) {
   return ruta.split('.').reduce((actual, parte) => actual?.[parte], objeto);
@@ -85,6 +79,15 @@ function validarRepo(repo, campo, errores) {
   if (typeof repo !== 'string' || !/^[^/\s]+\/[^/\s]+$/.test(repo)) agregarError(errores, campo, 'debe tener formato "owner/repositorio"');
 }
 
+// Las cifras cambian y viven en el resume.json; aquí envejecerían.
+function validarSinCifras(descripcion, campo, errores) {
+  for (const idioma of IDIOMAS) {
+    if (/\d/.test(descripcion?.[idioma] ?? '')) {
+      agregarError(errores, `${campo}.${idioma}`, 'lleva una cifra; las cifras salen del resume.json');
+    }
+  }
+}
+
 function validarTecnologia(slug, campo, errores) {
   if (!iconos[slug]) agregarError(errores, campo, `la tecnología "${slug}" no existe en iconos.json`);
 }
@@ -110,6 +113,20 @@ export function validarPerfil(perfil) {
 
   for (const [i, proyecto] of (perfil.proyectos ?? []).entries()) validarRepo(proyecto.repo, `proyectos[${i}].repo`, errores);
   for (const [i, repositorio] of (perfil.repositorios ?? []).entries()) validarRepo(repositorio.repo, `repositorios[${i}].repo`, errores);
+
+  for (const seccion of ['iniciativas', 'proyectos', 'repositorios']) {
+    for (const [i, item] of (perfil[seccion] ?? []).entries()) {
+      validarSinCifras(item.descripcion, `${seccion}[${i}].descripcion`, errores);
+    }
+  }
+  for (const [i, proyecto] of (perfil.proyectos ?? []).entries()) {
+    if (!proyecto.id) agregarError(errores, `proyectos[${i}].id`, 'falta el id del proyecto en el resume.json');
+    for (const idioma of IDIOMAS) {
+      if ((proyecto.descripcion?.[idioma] ?? '').length > LARGO_MAXIMO_DE_PROYECTO) {
+        agregarError(errores, `proyectos[${i}].descripcion.${idioma}`, `pasa de ${LARGO_MAXIMO_DE_PROYECTO} caracteres y no entra en la tarjeta`);
+      }
+    }
+  }
 
   for (const [i, slug] of (perfil.destacadas ?? []).entries()) validarTecnologia(slug, `destacadas[${i}]`, errores);
   for (const [i, grupo] of (perfil.stack ?? []).entries()) {

@@ -21,7 +21,7 @@ export function contactos(perfil, t) {
     { canal: 'linkedin', url: `https://www.linkedin.com/in/${perfil.contacto.linkedin}`, etiqueta: 'LinkedIn' },
     ...(perfil.contacto.youtube ? [{ canal: 'youtube', url: perfil.contacto.youtube, etiqueta: 'YouTube' }] : []),
     { canal: 'correo', url: `mailto:${perfil.contacto.email}`, etiqueta: t.correo },
-    { canal: 'whatsapp', url: `https://wa.me/${perfil.contacto.whatsapp}`, etiqueta: 'WhatsApp' },
+    ...(perfil.contacto.whatsapp ? [{ canal: 'whatsapp', url: `https://wa.me/${perfil.contacto.whatsapp}`, etiqueta: 'WhatsApp' }] : []),
     { canal: 'web', url: perfil.sitio, etiqueta: new URL(perfil.sitio).host },
   ];
 }
@@ -46,7 +46,7 @@ export function nombresTecnologias(slugs) {
 }
 
 export function lineaExperiencia({ perfil, idioma, t }) {
-  return `${perfil.experiencia[idioma]}. ${t.masEn} <a href="https://www.linkedin.com/in/${perfil.contacto.linkedin}">LinkedIn</a>`;
+  return `${perfil.experiencia[idioma]}. ${t.masEn} <a href="${perfil.sitio}">${new URL(perfil.sitio).host}</a>`;
 }
 
 // Titular, prueba concreta y trabajo actual, centrados entre dos líneas.

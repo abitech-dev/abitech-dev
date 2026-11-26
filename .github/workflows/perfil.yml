@@ -12,7 +12,7 @@ on:
         options: ['', corporativo, tech, ejecutivo]
         default: ''
   push:
-    branches: [dev]
+    branches: [main]
     paths: [perfil.json, 'generador/**', 'pruebas/**', .github/workflows/perfil.yml]
 
 permissions:

@@ -33,7 +33,6 @@ test('las frases cortas no terminan en punto', () => {
     ...perfil.iniciativas.map((i) => i.descripcion),
     perfil.experiencia,
     perfil.presentacion.titular,
-    perfil.presentacion.detalle,
   ];
   for (const fragmento of fragmentos) {
     for (const idioma of ['es', 'en']) assert.doesNotMatch(fragmento[idioma], /\.$/, fragmento[idioma]);

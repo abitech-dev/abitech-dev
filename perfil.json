@@ -5,8 +5,6 @@
     "tech",
     "ejecutivo"
   ],
-  "nombre": "Abimael Fernández Ventura",
-  "nombreCorto": "Abimael Fernández",
   "iniciales": "AF",
   "sitio": "https://abitech.dev",
   "ubicacion": {
@@ -15,66 +13,27 @@
   },
   "roles": {
     "es": [
-      "Ingeniero de software",
-      "Arquitecto de software",
-      "DevOps"
+      "Desarrollador full stack",
+      "Ingeniero de sistemas"
     ],
     "en": [
-      "Software Engineer",
-      "Software Architect",
-      "DevOps"
+      "Full stack developer",
+      "Systems engineer"
     ]
   },
   "lema": {
     "es": [
-      "Diseño y construyo software",
-      "y enseño cómo hacerlo"
+      "Construyo sistemas web",
+      "y los llevo a la nube"
     ],
     "en": [
-      "I design and build software",
-      "and teach how it's done"
+      "I build web systems",
+      "and take them to the cloud"
     ]
   },
-  "presentacion": {
-    "titular": {
-      "es": "Más de tres años creando sistemas que hoy usan miles de personas",
-      "en": "3+ years building systems that thousands of people use today"
-    },
-    "detalle": {
-      "es": "Plataformas de cursos con más de 8500 estudiantes, tiendas con pagos en línea y sistemas de gestión a medida",
-      "en": "Course platforms with 8,500+ students, online stores with payments and custom management systems"
-    }
-  },
-  "experiencia": {
-    "es": "Hoy trabajo como desarrollador full stack en Tecnovo Perú",
-    "en": "I currently work as a full stack developer at Tecnovo Perú"
-  },
-  "cifras": [
-    {
-      "valor": "35+",
-      "etiqueta": {
-        "es": "proyectos desarrollados",
-        "en": "projects delivered"
-      }
-    },
-    {
-      "valor": "12",
-      "etiqueta": {
-        "es": "sistemas en uso",
-        "en": "systems in use"
-      }
-    },
-    {
-      "valor": "6",
-      "etiqueta": {
-        "es": "sectores atendidos",
-        "en": "industries served"
-      }
-    }
-  ],
   "iniciativas": [
     {
-      "nombre": "Abitech Perú",
+      "nombre": "ABItech Perú",
       "tipo": {
         "es": "Mi empresa",
         "en": "My company"
@@ -82,47 +41,34 @@
       "url": "https://abitech.com.pe",
       "logo": "abitech.png",
       "descripcion": {
-        "es": "Desarrollo de software a medida y servicios de TI",
-        "en": "Custom software development and IT services"
+        "es": "Productos propios y sistemas a medida para educación, salud y turismo",
+        "en": "Own products and custom systems for education, health and tourism"
       }
     },
     {
-      "nombre": "ARSy Innova",
+      "nombre": "Arsy Innova",
       "tipo": {
-        "es": "Educación e innovación",
-        "en": "Education and innovation"
+        "es": "Empresa que cofundé",
+        "en": "Company I co-founded"
       },
       "url": "https://arsyinnova.edu.pe",
       "logo": "arsy.png",
       "descripcion": {
-        "es": "Proyecto que cofundé con cursos en línea y una red de especialistas",
-        "en": "A project I co-founded with online courses and a network of experts"
+        "es": "Cursos en línea con Arsy Academy y especialistas con Arsy Coworker",
+        "en": "Online courses with Arsy Academy and experts with Arsy Coworker"
       }
     },
     {
       "nombre": "Contenedores con peras y manzanas",
       "tipo": {
-        "es": "Libros",
-        "en": "Books"
+        "es": "Libros en borrador",
+        "en": "Draft books"
       },
       "url": "https://github.com/abitech-dev/la-fruteria",
       "logo": "libro.png",
       "descripcion": {
-        "es": "Mis libros para aprender Docker desde cero",
-        "en": "My books to learn Docker from scratch"
-      }
-    },
-    {
-      "nombre": "YouTube",
-      "tipo": {
-        "es": "Videos",
-        "en": "Videos"
-      },
-      "canal": "youtube",
-      "logo": "youtube",
-      "descripcion": {
-        "es": "Clases para aprender a programar paso a paso",
-        "en": "Lessons to learn programming step by step"
+        "es": "Una colección para aprender Docker, con su app de ejemplo",
+        "en": "A series to learn Docker, with its sample app"
       }
     }
   ],
@@ -138,13 +84,11 @@
   ],
   "contacto": {
     "linkedin": "abitechdev",
-    "email": "abimaelfv@hotmail.com",
-    "whatsapp": "51901231876",
     "youtube": null
   },
   "proyectos": [
     {
-      "nombre": "Pilot SSH",
+      "id": "pilot-ssh",
       "rubro": {
         "es": "Herramienta para equipos de TI",
         "en": "Tool for IT teams"
@@ -153,8 +97,8 @@
       "logo": "pilot-ssh.png",
       "color": "#14B8A6",
       "descripcion": {
-        "es": "Controla quién entra a tus servidores y registra lo que hace, desde el navegador",
-        "en": "Control who accesses your servers and log what they do, right from the browser"
+        "es": "En fase de pruebas. Controla quién entra a cada servidor y registra cada conexión, con terminal web",
+        "en": "In testing. Controls who accesses each server and logs every connection, with a web terminal"
       },
       "stack": [
         "django",
@@ -165,58 +109,56 @@
       ]
     },
     {
-      "nombre": "ARSy Account",
+      "id": "cred-plus",
       "rubro": {
-        "es": "Educación e investigación",
-        "en": "Education and research"
+        "es": "Salud",
+        "en": "Health"
       },
-      "url": "https://account.arsyinnova.edu.pe",
-      "repo": "ABItech-PERU/arsy-sso-client",
-      "logo": "arsy.png",
-      "color": "#00AEEF",
+      "logo": "cred-plus.png",
+      "color": "#CC3375",
       "descripcion": {
-        "es": "Con un solo usuario y contraseña entras a todas las aplicaciones de ARSy Innova",
-        "en": "One username and password to sign in to every ARSy Innova app"
+        "es": "Control de crecimiento, vacunas y planificación familiar según las normas del Minsa",
+        "en": "Growth, vaccination and family planning tracking under Peru’s health ministry rules"
       },
       "stack": [
         "laravel",
-        "inertia",
         "vuedotjs",
+        "inertia",
+        "mysql",
         "playwright"
       ]
     },
     {
-      "nombre": "Yachacuy",
+      "id": "yachacuy",
       "rubro": {
         "es": "Educación",
         "en": "Education"
       },
-      "url": "https://yachacuy.com",
       "logo": "yachacuy.png",
       "color": "#F97316",
       "descripcion": {
-        "es": "Plataforma de cursos con pagos en línea, inscripciones, cupones y reportes de ventas",
-        "en": "Course platform with online payments, enrollments, coupons and sales reports"
+        "es": "Venta de cursos en línea con Mercado Pago y certificados verificables con QR",
+        "en": "Online course sales with Mercado Pago and certificates verified by QR"
       },
       "stack": [
         "laravel",
         "vuedotjs",
         "inertia",
-        "mysql"
+        "mysql",
+        "mercadopago"
       ]
     },
     {
-      "nombre": "Tu Coach UDH",
+      "id": "tu-coach",
       "rubro": {
         "es": "Universidad",
         "en": "University"
       },
-      "url": "https://tucoach.udh.edu.pe",
       "logo": "tu-coach.png",
       "color": "#F5A400",
       "descripcion": {
-        "es": "Cursos de investigación con más de 8500 estudiantes y 7500 certificados emitidos",
-        "en": "Research courses with 8,500+ students and 7,500+ certificates issued"
+        "es": "Cursos de la Universidad de Huánuco sobre investigación y redacción de tesis",
+        "en": "Universidad de Huánuco courses on research and thesis writing"
       },
       "stack": [
         "laravel",
@@ -230,8 +172,8 @@
     {
       "repo": "abitech-dev/abitech-payments-laravel",
       "descripcion": {
-        "es": "Paquete de Laravel para cobrar con varios medios de pago desde una sola integración",
-        "en": "Laravel package to accept several payment methods through one integration"
+        "es": "Paquete de Laravel que integra Stripe y Mercado Pago con una sola interfaz",
+        "en": "Laravel package that integrates Stripe and Mercado Pago behind one interface"
       }
     },
     {
@@ -242,17 +184,10 @@
       }
     },
     {
-      "repo": "ABItech-PERU/inmuno-alerta",
-      "descripcion": {
-        "es": "Registro de vacunas con recordatorios automáticos por correo",
-        "en": "Vaccination records with automatic email reminders"
-      }
-    },
-    {
       "repo": "ABItech-PERU/abitech-optipix-web",
       "descripcion": {
-        "es": "Reduce el peso de tus imágenes sin subirlas a internet, basado en Squoosh",
-        "en": "Shrinks your images without uploading them anywhere, based on Squoosh"
+        "es": "Versión propia de Squoosh que optimiza imágenes por lotes, sin subirlas a internet",
+        "en": "Custom Squoosh build that optimizes images in batches, without uploading them"
       }
     }
   ],
@@ -265,10 +200,10 @@
       "tecnologias": [
         "php",
         "laravel",
+        "csharp",
         "dotnet",
-        "django",
         "python",
-        "nodedotjs"
+        "django"
       ]
     },
     {
@@ -278,11 +213,11 @@
       },
       "tecnologias": [
         "vuedotjs",
+        "javascript",
         "inertia",
-        "react",
-        "angular",
+        "tailwindcss",
         "typescript",
-        "tailwindcss"
+        "react"
       ]
     },
     {
@@ -292,9 +227,8 @@
       },
       "tecnologias": [
         "mysql",
-        "postgresql",
         "sqlserver",
-        "mongodb",
+        "postgresql",
         "redis"
       ]
     },
@@ -319,11 +253,8 @@
       },
       "tecnologias": [
         "pest",
-        "vitest",
         "playwright",
-        "bruno",
-        "swagger",
-        "newrelic"
+        "mercadopago"
       ]
     }
   ]
