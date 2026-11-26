@@ -10,6 +10,7 @@ Edita `perfil.json` y deja que la Action publique. No edites `README.md`, `READM
 - Las tecnologías se escriben con su clave de `iconos.json`, por ejemplo `laravel` o `vuedotjs`.
 - Cuando tengas canal de YouTube, pon el enlace en `contacto.youtube` y aparecerá el botón.
 - Para fijar un tema deja uno solo en `temas`. Con varios, rotan cada lunes.
+- La sección «Del blog» muestra los tres escritos más recientes del RSS de `sitio`, en cada idioma. Se actualiza en cada ejecución diaria y, si el RSS no responde, usa `datos/blog.json`.
 
 ## Correr en local
 

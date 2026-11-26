@@ -80,6 +80,20 @@ export function textoStack({ perfil, idioma }) {
     .join('. ');
 }
 
+// La lista sale del RSS del sitio, así que un escrito nuevo aparece solo.
+export function seccionBlog({ perfil, blog, idioma, t }) {
+  const escritos = blog?.[idioma] ?? [];
+  if (!escritos.length) return [];
+  return [
+    `## ${t.blog}`,
+    '',
+    ...escritos.map(({ titulo, url }) => `- [${titulo.replace(/[[\]]/g, '\\$&')}](${url})`),
+    '',
+    `<sub><a href="${perfil.sitio}${t.rutaBlog}">${t.verBlog}</a></sub>`,
+    '',
+  ];
+}
+
 export function imagenActividad({ github, idioma, t }) {
   return imagenAdaptable(idioma, 'actividad', `${t.actividad}. ${resumenActividad({ github, idioma })}`, 'width="100%"');
 }

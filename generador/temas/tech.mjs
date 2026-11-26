@@ -1,6 +1,7 @@
 import {
   cuadricula, filaBotones, imagenActividad, imagenAdaptable, lineaExperiencia, llamadoFinal, nombresTecnologias,
   selectorIdioma, textoStack,
+  seccionBlog,
 } from '../markdown.mjs';
 import { bannerTerminal } from '../svg/banner-terminal.mjs';
 import { tarjetasIniciativas, tarjetasProyectos, tarjetasRepositorios } from '../tarjetas.mjs';
@@ -59,6 +60,7 @@ function readme(ctx) {
     '',
     cuadricula(idioma, tarjetasRepositorios(ctx)),
     '',
+    ...seccionBlog(ctx),
     ...(github ? [`## ${t.actividad}`, '', imagenActividad(ctx), ''] : []),
     llamadoFinal(t, perfil),
     '',

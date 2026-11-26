@@ -3,12 +3,14 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { construirPerfil, validarArchivos } from './construir.mjs';
+import { obtenerEscritos } from './blog.mjs';
 import { obtenerDatosGithub } from './github.mjs';
 import { temaDeLaSemana } from './rotacion.mjs';
 import { cargarPerfil } from './validar.mjs';
 
 const raiz = fileURLToPath(new URL('..', import.meta.url));
 const rutaCache = join(raiz, 'datos', 'github.json');
+const rutaBlog = join(raiz, 'datos', 'blog.json');
 
 const { values: opciones } = parseArgs({
   options: {
@@ -34,7 +36,19 @@ if (!opciones['sin-red']) {
 }
 if (!github && existsSync(rutaCache)) github = JSON.parse(readFileSync(rutaCache, 'utf8'));
 
-const archivos = construirPerfil({ perfil, github, temaId });
+let blog = null;
+if (!opciones['sin-red']) {
+  try {
+    blog = await obtenerEscritos(perfil);
+    writeFileSync(rutaBlog, `${JSON.stringify(blog, null, 2)}
+`);
+  } catch (error) {
+    console.warn(`No se pudo leer el blog (${error.message}). Uso los escritos guardados.`);
+  }
+}
+if (!blog && existsSync(rutaBlog)) blog = JSON.parse(readFileSync(rutaBlog, 'utf8'));
+
+const archivos = construirPerfil({ perfil, github, blog, temaId });
 validarArchivos(archivos);
 
 rmSync(join(raiz, 'assets'), { recursive: true, force: true });
