@@ -1,4 +1,4 @@
-name: Desplegar a prod
+name: Desplegar a producción
 
 on:
   # 06:00 en Lima. El tema cambia los lunes y las estadísticas cada día.
