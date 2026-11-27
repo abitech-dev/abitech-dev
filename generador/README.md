@@ -1,10 +1,10 @@
 # Generador del perfil
 
-El README del perfil y todas sus imágenes salen de dos fuentes. Los hechos (nombre, titular, resumen, empleo actual, cifras, correo y el nombre y enlace de cada proyecto) se leen del `resume.json` que publica abitech.dev, el mismo que exporta `abitech-trayectoria` ([cómo llega al sitio](https://github.com/abitech-dev/abitech-portafolio-web#de-dónde-salen-los-datos)). La forma (temas, roles, lema, logos, colores, tecnologías y textos de las tarjetas) está en `perfil.json`. Nada depende de servicios externos al cargar la página: los SVG se generan aquí y se guardan en `assets/`.
+El README del perfil y todas sus imágenes salen de dos fuentes. Los hechos (nombre, titular, resumen, empleo actual, cifras, correo y el nombre y enlace de cada proyecto) se leen del `resume.json` que publica abitech.dev, el mismo que exporta `abitech-trayectoria-cli` ([cómo llega al sitio](https://github.com/abitech-dev/abitech-portafolio-web#de-dónde-salen-los-datos)). La forma (temas, roles, lema, logos, colores, tecnologías y textos de las tarjetas) está en `perfil.json`. Nada depende de servicios externos al cargar la página: los SVG se generan aquí y se guardan en `assets/`.
 
 ## Cambiar el contenido
 
-Un hecho se corrige en `abitech-trayectoria` y llega al perfil en la siguiente ejecución diaria. La forma se edita en `perfil.json` y la Action publica. No edites `README.md`, `README.en.md` ni `assets/` a mano, porque se sobrescriben en cada ejecución.
+Un hecho se corrige en `abitech-trayectoria-cli` y llega al perfil en la siguiente ejecución diaria. La forma se edita en `perfil.json` y la Action publica. No edites `README.md`, `README.en.md` ni `assets/` a mano, porque se sobrescriben en cada ejecución.
 
 - Los textos bilingües llevan siempre `es` y `en`.
 - Cada proyecto destacado lleva el `id` que tiene en el `resume.json`. Si el sitio deja de publicarlo, la generación se detiene.
