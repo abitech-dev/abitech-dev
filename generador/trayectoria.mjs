@@ -1,5 +1,5 @@
 // Los hechos del perfil salen del resume.json que publica abitech.dev, el
-// mismo que exporta abitech-trayectoria. perfil.json solo decide la forma.
+// mismo que exporta abitech-trayectoria-cli. perfil.json solo decide la forma.
 
 const ETIQUETAS_DE_CIFRAS = {
   yearsOfExperience: { es: 'años de experiencia', en: 'years of experience' },
