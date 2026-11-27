@@ -58,7 +58,7 @@
 
 ## GitHub activity
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/actividad-oscuro.svg"><img src="assets/en/actividad-claro.svg" alt="GitHub activity. 3,114 contributions in the last 12 months, 2,427 in private projects, 151 active days and 18 day longest streak" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/actividad-oscuro.svg"><img src="assets/en/actividad-claro.svg" alt="GitHub activity. 3,134 contributions in the last 12 months, 2,428 in private projects, 151 active days and 18 day longest streak" width="100%"></picture>
 
 ## Let's talk
 
