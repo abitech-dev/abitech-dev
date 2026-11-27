@@ -58,10 +58,10 @@
 
 ## Actividad en GitHub
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/actividad-oscuro.svg"><img src="assets/es/actividad-claro.svg" alt="Actividad en GitHub. 3,106 contribuciones en los últimos 12 meses, 2,424 en proyectos privados, 151 días con actividad y 18 días de racha máxima" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/es/actividad-oscuro.svg"><img src="assets/es/actividad-claro.svg" alt="Actividad en GitHub. 3,114 contribuciones en los últimos 12 meses, 2,427 en proyectos privados, 151 días con actividad y 18 días de racha máxima" width="100%"></picture>
 
 ## Hablemos
 
-<p align="center"><b>¿Tienes un proyecto en mente o quieres aprender conmigo? <a href="mailto:abimaelfv@hotmail.com">Escríbeme</a></b></p>
+<p align="center"><b>¿Tienes un proyecto en mente? <a href="mailto:abimaelfv@hotmail.com">Escríbeme</a></b></p>
 
 <p align="center"><a href="https://www.linkedin.com/in/abitechdev">LinkedIn</a> &nbsp;|&nbsp; <a href="mailto:abimaelfv@hotmail.com">Correo</a> &nbsp;|&nbsp; <a href="https://abitech.dev">abitech.dev</a></p>

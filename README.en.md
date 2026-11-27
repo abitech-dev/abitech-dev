@@ -58,10 +58,10 @@
 
 ## GitHub activity
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/actividad-oscuro.svg"><img src="assets/en/actividad-claro.svg" alt="GitHub activity. 3,106 contributions in the last 12 months, 2,424 in private projects, 151 active days and 18 day longest streak" width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/en/actividad-oscuro.svg"><img src="assets/en/actividad-claro.svg" alt="GitHub activity. 3,114 contributions in the last 12 months, 2,427 in private projects, 151 active days and 18 day longest streak" width="100%"></picture>
 
 ## Let's talk
 
-<p align="center"><b>Have a project in mind or want to learn with me? <a href="mailto:abimaelfv@hotmail.com">Send me a message</a></b></p>
+<p align="center"><b>Have a project in mind? <a href="mailto:abimaelfv@hotmail.com">Send me a message</a></b></p>
 
 <p align="center"><a href="https://www.linkedin.com/in/abitechdev">LinkedIn</a> &nbsp;|&nbsp; <a href="mailto:abimaelfv@hotmail.com">Email</a> &nbsp;|&nbsp; <a href="https://abitech.dev">abitech.dev</a></p>
