@@ -2,7 +2,8 @@
   "name": "abitech-dev-perfil",
   "private": true,
   "type": "module",
-  "description": "Generador del perfil de GitHub de abitech-dev",
+  "description": "Perfil de GitHub que se genera cada día desde el currículum de abitech.dev, con un tema distinto por semana",
+  "license": "UNLICENSED",
   "engines": {
     "node": ">=22"
   },
