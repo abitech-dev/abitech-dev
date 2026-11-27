@@ -1,8 +1,8 @@
 {
-  "generado": "2026-11-27T04:06:27.261Z",
+  "generado": "2026-11-27T11:04:12.701Z",
   "contribuciones": {
-    "total": 3173,
-    "privadas": 2454,
+    "total": 3196,
+    "privadas": 2463,
     "semanas": [
       [
         {
@@ -181,12 +181,12 @@
         {
           "fecha": "2025-12-26",
           "cantidad": 72,
-          "nivel": "SECOND_QUARTILE"
+          "nivel": "THIRD_QUARTILE"
         },
         {
           "fecha": "2025-12-27",
           "cantidad": 37,
-          "nivel": "FIRST_QUARTILE"
+          "nivel": "SECOND_QUARTILE"
         }
       ],
       [
@@ -1397,7 +1397,7 @@
         {
           "fecha": "2026-08-13",
           "cantidad": 38,
-          "nivel": "FIRST_QUARTILE"
+          "nivel": "SECOND_QUARTILE"
         },
         {
           "fecha": "2026-08-14",
@@ -1730,12 +1730,12 @@
         {
           "fecha": "2026-10-15",
           "cantidad": 104,
-          "nivel": "THIRD_QUARTILE"
+          "nivel": "FOURTH_QUARTILE"
         },
         {
           "fecha": "2026-10-16",
           "cantidad": 67,
-          "nivel": "SECOND_QUARTILE"
+          "nivel": "THIRD_QUARTILE"
         },
         {
           "fecha": "2026-10-17",
@@ -1841,7 +1841,7 @@
         {
           "fecha": "2026-11-05",
           "cantidad": 35,
-          "nivel": "FIRST_QUARTILE"
+          "nivel": "SECOND_QUARTILE"
         },
         {
           "fecha": "2026-11-06",
@@ -1883,7 +1883,7 @@
         {
           "fecha": "2026-11-13",
           "cantidad": 35,
-          "nivel": "FIRST_QUARTILE"
+          "nivel": "SECOND_QUARTILE"
         },
         {
           "fecha": "2026-11-14",
@@ -1895,7 +1895,7 @@
         {
           "fecha": "2026-11-15",
           "cantidad": 102,
-          "nivel": "THIRD_QUARTILE"
+          "nivel": "FOURTH_QUARTILE"
         },
         {
           "fecha": "2026-11-16",
@@ -1951,13 +1951,13 @@
         },
         {
           "fecha": "2026-11-26",
-          "cantidad": 110,
-          "nivel": "THIRD_QUARTILE"
+          "cantidad": 132,
+          "nivel": "FOURTH_QUARTILE"
         },
         {
           "fecha": "2026-11-27",
-          "cantidad": 0,
-          "nivel": "NONE"
+          "cantidad": 1,
+          "nivel": "FIRST_QUARTILE"
         }
       ]
     ]
@@ -1977,8 +1977,8 @@
       "forks": 0,
       "sitio": "https://abitech.dev/codigo-abierto",
       "lenguaje": {
-        "nombre": "PHP",
-        "color": "#4F5D95"
+        "nombre": "Python",
+        "color": "#3572A5"
       }
     },
     "ABItech-PERU/abitech-optipix-web": {
