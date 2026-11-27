@@ -1,6 +1,6 @@
 # Generador del perfil
 
-El README del perfil y todas sus imágenes salen de dos fuentes. Los hechos (nombre, titular, resumen, empleo actual, cifras, correo y el nombre y enlace de cada proyecto) se leen del `resume.json` que publica abitech.dev, el mismo que exporta `abitech-trayectoria`. La forma (temas, roles, lema, logos, colores, tecnologías y textos de las tarjetas) está en `perfil.json`. Nada depende de servicios externos al cargar la página: los SVG se generan aquí y se guardan en `assets/`.
+El README del perfil y todas sus imágenes salen de dos fuentes. Los hechos (nombre, titular, resumen, empleo actual, cifras, correo y el nombre y enlace de cada proyecto) se leen del `resume.json` que publica abitech.dev, el mismo que exporta `abitech-trayectoria` ([cómo llega al sitio](https://github.com/abitech-dev/abitech-portafolio-web#de-dónde-salen-los-datos)). La forma (temas, roles, lema, logos, colores, tecnologías y textos de las tarjetas) está en `perfil.json`. Nada depende de servicios externos al cargar la página: los SVG se generan aquí y se guardan en `assets/`.
 
 ## Cambiar el contenido
 
@@ -32,6 +32,10 @@ En local el token sale de `gh auth token`. La Action usa el `GITHUB_TOKEN` que G
 ## Contribuciones privadas
 
 La mayor parte de la actividad está en repos privados. La Action la cuenta porque el perfil tiene activado "Include private contributions on my profile" (Settings, Public profile). Si se desactiva, la tarjeta de actividad baja a las contribuciones públicas.
+
+## Vista social
+
+La imagen que GitHub muestra al compartir el repositorio es [vista-social.png](../docs/imagenes/vista-social.png), de 1280×640 px. GitHub no la lee del repositorio, así que cada versión nueva se sube a mano en Settings, Social preview.
 
 ## Temas
 
